@@ -134,7 +134,7 @@ func streamHandler(w http.ResponseWriter, r *http.Request) {
 		time.Sleep(1 * time.Second)
 	}
 	// End connection
-	fmt.Fprint(w, "data: Stream finished.\n")
+	fmt.Fprint(w, ":Stream finished.\n")
 }
 
 func main() {
